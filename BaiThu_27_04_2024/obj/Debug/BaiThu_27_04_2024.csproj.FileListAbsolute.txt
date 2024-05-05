@@ -1,0 +1,53 @@
+E:\CacbaithuchanhvoiVisualStudio\BaiThu_27_04_2024\BaiThu_27_04_2024\bin\Debug\BaiThu_27_04_2024.exe.config
+E:\CacbaithuchanhvoiVisualStudio\BaiThu_27_04_2024\BaiThu_27_04_2024\bin\Debug\BaiThu_27_04_2024.exe
+E:\CacbaithuchanhvoiVisualStudio\BaiThu_27_04_2024\BaiThu_27_04_2024\bin\Debug\BaiThu_27_04_2024.pdb
+E:\CacbaithuchanhvoiVisualStudio\BaiThu_27_04_2024\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.csproj.AssemblyReference.cache
+E:\CacbaithuchanhvoiVisualStudio\BaiThu_27_04_2024\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.Form1.resources
+E:\CacbaithuchanhvoiVisualStudio\BaiThu_27_04_2024\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.Properties.Resources.resources
+E:\CacbaithuchanhvoiVisualStudio\BaiThu_27_04_2024\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.csproj.GenerateResource.cache
+E:\CacbaithuchanhvoiVisualStudio\BaiThu_27_04_2024\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.csproj.CoreCompileInputs.cache
+E:\CacbaithuchanhvoiVisualStudio\BaiThu_27_04_2024\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.exe
+E:\CacbaithuchanhvoiVisualStudio\BaiThu_27_04_2024\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.pdb
+E:\CacbaithuchanhvoiVisualStudio\BaiThu_27_04_2024\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.Form2.resources
+E:\CacbaithuchanhvoiVisualStudio\BaiThu_27_04_2024\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.Form3_QuanLyDanhSachCacKhoThuoc.resources
+E:\CacbaithuchanhvoiVisualStudio\BaiThu_27_04_2024\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.Form3_QuanLyDanhSachThuocTrongKho.resources
+E:\CacbaithuchanhvoiVisualStudio\BaiThu_27_04_2024\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.Form5_QuanLyDanhSachCacLoaiThuoc.resources
+E:\CacbaithuchanhvoiVisualStudio\BaiThu_27_04_2024\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.Form6_QuanLyDanhSachNhaCungCapThuoc.resources
+E:\CacbaithuchanhvoiVisualStudio\BaiThu_27_04_2024\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.Form7_QuanLyChiTietHangNhapMoiLanNhapHang.resources
+E:\CacbaithuchanhvoiVisualStudio\BaiThu_27_04_2024\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.Form8_BaoCaoVaThongKe.resources
+D:\BaiThu_27_04_2024\BaiThu_27_04_2024\bin\Debug\BaiThu_27_04_2024.exe.config
+D:\BaiThu_27_04_2024\BaiThu_27_04_2024\bin\Debug\BaiThu_27_04_2024.exe
+D:\BaiThu_27_04_2024\BaiThu_27_04_2024\bin\Debug\BaiThu_27_04_2024.pdb
+D:\BaiThu_27_04_2024\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.csproj.AssemblyReference.cache
+D:\BaiThu_27_04_2024\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.Form1.resources
+D:\BaiThu_27_04_2024\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.Form2.resources
+D:\BaiThu_27_04_2024\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.Form3_QuanLyDanhSachCacKhoThuoc.resources
+D:\BaiThu_27_04_2024\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.Form3_QuanLyDanhSachThuocTrongKho.resources
+D:\BaiThu_27_04_2024\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.Form5_QuanLyDanhSachCacLoaiThuoc.resources
+D:\BaiThu_27_04_2024\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.Form6_QuanLyDanhSachNhaCungCapThuoc.resources
+D:\BaiThu_27_04_2024\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.Form7_QuanLyChiTietHangNhapMoiLanNhapHang.resources
+D:\BaiThu_27_04_2024\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.Form8_BaoCaoVaThongKe.resources
+D:\BaiThu_27_04_2024\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.Properties.Resources.resources
+D:\BaiThu_27_04_2024\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.csproj.GenerateResource.cache
+D:\BaiThu_27_04_2024\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.csproj.CoreCompileInputs.cache
+D:\BaiThu_27_04_2024\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.exe
+D:\BaiThu_27_04_2024\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.pdb
+D:\BaiThu_27_04_2024\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.Form9_GiaoDienAdmin.resources
+D:\BaiThu_27_04_2024 - Copy\BaiThu_27_04_2024\bin\Debug\BaiThu_27_04_2024.exe.config
+D:\BaiThu_27_04_2024 - Copy\BaiThu_27_04_2024\bin\Debug\BaiThu_27_04_2024.exe
+D:\BaiThu_27_04_2024 - Copy\BaiThu_27_04_2024\bin\Debug\BaiThu_27_04_2024.pdb
+D:\BaiThu_27_04_2024 - Copy\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.csproj.AssemblyReference.cache
+D:\BaiThu_27_04_2024 - Copy\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.Form1.resources
+D:\BaiThu_27_04_2024 - Copy\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.Form2.resources
+D:\BaiThu_27_04_2024 - Copy\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.Form3_QuanLyDanhSachCacKhoThuoc.resources
+D:\BaiThu_27_04_2024 - Copy\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.Form3_QuanLyDanhSachThuocTrongKho.resources
+D:\BaiThu_27_04_2024 - Copy\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.Form5_QuanLyDanhSachCacLoaiThuoc.resources
+D:\BaiThu_27_04_2024 - Copy\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.Form6_QuanLyDanhSachNhaCungCapThuoc.resources
+D:\BaiThu_27_04_2024 - Copy\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.Form7_QuanLyChiTietHangNhapMoiLanNhapHang.resources
+D:\BaiThu_27_04_2024 - Copy\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.Form8_BaoCaoVaThongKe.resources
+D:\BaiThu_27_04_2024 - Copy\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.Form9_GiaoDienAdmin.resources
+D:\BaiThu_27_04_2024 - Copy\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.Properties.Resources.resources
+D:\BaiThu_27_04_2024 - Copy\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.csproj.GenerateResource.cache
+D:\BaiThu_27_04_2024 - Copy\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.csproj.CoreCompileInputs.cache
+D:\BaiThu_27_04_2024 - Copy\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.exe
+D:\BaiThu_27_04_2024 - Copy\BaiThu_27_04_2024\obj\Debug\BaiThu_27_04_2024.pdb

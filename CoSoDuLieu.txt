@@ -1,0 +1,126 @@
+CREATE DATABASE QuanLyHieuThuoc; -- Tạo database QuanLyHieuThuoc nếu chưa tồn tại
+
+USE QuanLyHieuThuoc; -- Sử dụng database QuanLyHieuThuoc
+
+-- Tạo bảng dmkhoathuoc để lưu thông tin về các kho thuốc
+CREATE TABLE dmkhoathuoc (
+    makhoathuoc NVARCHAR(10) PRIMARY KEY,
+    tenkhoathuoc NVARCHAR(100) NOT NULL
+);
+
+-- Tạo bảng dmloaithuoc để lưu thông tin về các loại thuốc
+CREATE TABLE dmloaithuoc (
+    maloaithuoc NVARCHAR(10) PRIMARY KEY,
+    tenloaithuoc NVARCHAR(100) NOT NULL
+);
+
+-- Tạo bảng thuoc để lưu thông tin về các loại thuốc trong kho
+CREATE TABLE thuoc (
+    mathuoc NVARCHAR(10) PRIMARY KEY,
+    ten_thuoc NVARCHAR(100) NOT NULL,
+    maloaithuoc NVARCHAR(10) REFERENCES dmloaithuoc(maloaithuoc),
+    makhoathuoc NVARCHAR(10) REFERENCES dmkhoathuoc(makhoathuoc),
+    soluong INT NOT NULL,
+    ngaynhap DATE NOT NULL
+);
+
+-- Tạo bảng nhacungcap để lưu thông tin về các nhà cung cấp thuốc
+CREATE TABLE nhacungcap (
+    manhacungcap NVARCHAR(10) PRIMARY KEY,
+    tennhacungcap NVARCHAR(100) NOT NULL,
+    diachi NVARCHAR(200) NOT NULL,
+    sodienthoai NVARCHAR(20) NOT NULL
+);
+
+-- Tạo bảng nhaphang để lưu thông tin về các lần nhập hàng
+CREATE TABLE nhaphang (
+    manhaphang NVARCHAR(10) PRIMARY KEY,
+    manhacungcap NVARCHAR(10) REFERENCES nhacungcap(manhacungcap),
+    ngaynhap DATE NOT NULL,
+    tongtien FLOAT NOT NULL
+);
+
+-- Tạo bảng chitietnhaphang để lưu thông tin về các chi tiết hàng nhập trong mỗi lần nhập hàng
+CREATE TABLE chitietnhaphang (
+    manhaphang NVARCHAR(10) REFERENCES nhaphang(manhaphang),
+    mathuoc NVARCHAR(10) REFERENCES thuoc(mathuoc),
+    soluong INT NOT NULL,
+    dongia FLOAT NOT NULL,
+    CONSTRAINT PK_ChiTietNhapHang PRIMARY KEY (manhaphang, mathuoc)
+);
+
+-- Thêm dữ liệu vào các bảng
+
+-- Thêm dữ liệu vào bảng dmkhoathuoc
+INSERT INTO dmkhoathuoc (makhoathuoc, tenkhoathuoc) VALUES
+('KHO01', 'Kho thuốc số 1'),
+('KHO02', 'Kho thuốc số 2'),
+('KHO03', 'Kho thuốc số 3');
+
+-- Thêm dữ liệu vào bảng dmloaithuoc
+INSERT INTO dmloaithuoc (maloaithuoc, tenloaithuoc) VALUES
+('LOAI01', 'Loại thuốc 1'),
+('LOAI02', 'Loại thuốc 2'),
+('LOAI03', 'Loại thuốc 3');
+
+-- Thêm dữ liệu vào bảng thuoc
+INSERT INTO thuoc (mathuoc, ten_thuoc, maloaithuoc, makhoathuoc, soluong, ngaynhap) VALUES
+('T0001', N'Thuốc A', 'LOAI01', 'KHO01', 100, '2024-04-27'),
+('T0002', N'Thuốc B', 'LOAI02', 'KHO01', 150, '2024-04-28'),
+('T0003', N'Thuốc C', 'LOAI01', 'KHO02', 200, '2024-04-26');
+
+-- Thêm dữ liệu vào bảng nhacungcap
+INSERT INTO nhacungcap (manhacungcap, tennhacungcap, diachi, sodienthoai) VALUES
+('NCC001', 'Nhà cung cấp A', 'Địa chỉ A', '0123456789'),
+('NCC002', 'Nhà cung cấp B', 'Địa chỉ B', '0987654321');
+
+-- Thêm dữ liệu vào bảng nhaphang
+INSERT INTO nhaphang (manhaphang, manhacungcap, ngaynhap, tongtien) VALUES
+('NH001', 'NCC001', '2024-04-27', 500000),
+('NH002', 'NCC002', '2024-04-28', 750000);
+
+-- Thêm dữ liệu vào bảng chitietnhaphang
+INSERT INTO chitietnhaphang (manhaphang, mathuoc, soluong, dongia) VALUES
+('NH001', 'T0001', 50, 10000),
+('NH001', 'T0002', 100, 8000),
+('NH002', 'T0003', 150, 6000);
+
+-- Tạo bảng user để lưu thông tin người dùng
+CREATE TABLE users (
+    username NVARCHAR(50) PRIMARY KEY,
+    password NVARCHAR(50) NOT NULL,
+    loaiuser NVARCHAR(20) NOT NULL
+);
+
+-- Thêm dữ liệu vào bảng user
+INSERT INTO users (username, password, loaiuser) VALUES
+('user1', 'password1', 'admin'),
+('user2', 'password2', 'staff'),
+('user3', 'password3', 'staff');
+
+CREATE TABLE Admins (
+    AdminID INT PRIMARY KEY IDENTITY(1,1),
+    Username NVARCHAR(50) UNIQUE NOT NULL,
+    Password NVARCHAR(50) NOT NULL,
+    Email NVARCHAR(100) UNIQUE NOT NULL
+);
+INSERT INTO Admins (Username, Password, Email) VALUES ('newadmin', 'newadminpassword', 'newadmin@example.com');
+VALUES ('b', '1', 'Bao@gmail.com');
+
+
+CREATE TABLE UserLoginInfo (
+    Username NVARCHAR(50) PRIMARY KEY,
+    LoginTime DATETIME
+);
+
+CREATE TABLE ThongBao (
+    MaThongBao INT PRIMARY KEY IDENTITY(1,1),
+    NoiDung NVARCHAR(MAX) NOT NULL
+);
+
+CREATE TABLE YeuCauQuenMatKhau (
+    MaYeuCau INT PRIMARY KEY IDENTITY(1,1),
+    TenDangNhap NVARCHAR(50) NOT NULL,
+    ThoiGianYeuCau DATETIME DEFAULT GETDATE(),
+    VanDe NVARCHAR(MAX) NOT NULL
+);
